@@ -1,3 +1,5 @@
+@import 'reset.scss';
+
 body {
   background-color: antiquewhite;
 }
@@ -16,3 +18,99 @@ body {
   margin-bottom: 20px;
   border: 5px solid black;
 }
+
+
+
+.button-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.buttons{
+  display: flex;
+width: 100%;
+justify-content: space-around;
+}
+
+.Button{    
+  color: white;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1px;
+  letter-spacing: 0em;  
+  border-radius: 8px;
+  border: none; 
+  padding: 30px 40px;
+  margin-right: 15px;  
+}
+
+.button1{
+background-color: #017187;
+}
+.button2{
+background-color: #5C0187;
+}
+.button3{
+background-color:#871101; 
+}
+.button4{
+background-color:#01870E ; 
+}
+.button5{
+background-color:#E2CF22 ; 
+}
+.button6{
+background-color:#011E87 ; 
+}
+
+.button7-box{
+  margin-left: 15px;
+}
+
+.button7{
+  background-color:#18D5E1 ; 
+  }
+
+.box-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+  flex-wrap: wrap;
+
+  
+}
+
+.boks{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 60px;
+padding: 100px;
+width: 300px;
+height: 300px;
+background-color: #1FC2AE;
+}
+
+.yellowBackground{
+  background-color: yellow;
+}
+
+.invisibleBox{
+  visibility: hidden;
+}
+
+.all-to-blue{
+  background-color:#18D5E1;
+}
+
+.toBlack{
+  background-color: black;
+}
+
